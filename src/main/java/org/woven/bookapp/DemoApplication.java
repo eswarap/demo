@@ -7,8 +7,8 @@ import org.springframework.boot.web.servlet.ServletComponentScan;
 import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 
 @ServletComponentScan
-@EnableJpaRepositories("com.example.demo.repository")
-@EntityScan("com.example.demo.model")
+@EnableJpaRepositories("org.woven.bookapp.repository")
+@EntityScan("org.woven.bookapp.model")
 @SpringBootApplication
 public class DemoApplication {
 

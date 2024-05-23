@@ -22,7 +22,7 @@ import java.util.List;
 @RequestMapping("/api/books")
 public class BookController {
 
-    private BookRepository bookRepository;
+    private final BookRepository bookRepository;
     @Autowired
     public BookController(final BookRepository bookRepository){
         this.bookRepository = bookRepository;
